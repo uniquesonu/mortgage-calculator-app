@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mortgage-Calculator-App</title>
+</head>
+<body>
+    <div class="container" >
+        <h1>Mortgage Calculator App</h1>
+        <div class="price-range">
+
+        <div class="range-wrapper">
+
+
+            <div class="input-wrapper">
+            <label for="purchase-price">Purchase Price: $<span id="price">0</span></label>
+            <input type="range" id="purchase-price" min="0" max="1000000">
+        </div>
+        
+
+        <div class="input-wrapper">
+            <label for="down-payment">Down Payment: $<span id="dpay">0</span></label>
+            <input type="range" id="down-payment" min="0" max="1000000">
+            </div>
+
+            <div class="input-wrapper">
+            <label for="repayment">Repayment Time: <span id="year">0</span>year</label>
+            <input type="range" id="repayment" min="1" max="30">
+            </div>
+
+    
+            <div class="input-wrapper">
+            <label for="interest-rate">Interest Rate: <span id="interest">0</span>%</label>
+            <input type="range" id="interest-rate" min="0" max="30">
+            </div>
+
+
+            <h3 id="loan-amount">Loan Amount : <br>$ <span id="amount">0</span></h3>
+            <h3 id="est-per-mon">Estimated per month: <br> $<span id="per-month">0</span></h3>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
