@@ -21,3 +21,7 @@ monthly_payment=$(echo "scale=2; $loan_amount * $monthly_interest_rate * (1 + $m
 # Print the results
 echo "Loan amount: $loan_amount"
 echo "Monthly payment: $monthly_payment"
+# Authors:
+# - mortage calculator
+# - sonu kumar
+# - uniquesonu
